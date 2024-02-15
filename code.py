@@ -3,9 +3,9 @@ from telethon import types
 import asyncio
 from random import randint
 
-api_id = '27420773'
-api_hash = '2cbf51015f3539a2b370cda8f24a2ed3'
-phone = '+62857590469763'
+api_id = 'API_ID'
+api_hash = 'API_HASH'
+phone = 'PHONE_NUMBER'
 
 client = TelegramClient('anon', api_id, api_hash)
 
